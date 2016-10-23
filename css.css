@@ -5,8 +5,11 @@ $black: rgba(48,69,92,0.8)
 $sans: 'Titillium Web', sans-serif
   
 .transition
-  transition: all 0.25s ease-in-out
 
+
+{
+  transition: all 0.25s ease-in-out
+}
 .flipIn
   animation: flipdown 0.5s ease both
     
